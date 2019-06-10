@@ -1,1 +1,0 @@
-# Lluvia de ideas
