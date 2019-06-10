@@ -2,57 +2,74 @@
 
 ## Consideraciones generales
 
- ### NOTA DE VIANEY
-  debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
+  ### Instalación
+   - ¿Cómo visualizo el producto final?
 
+      Dar click a la liga de GitHub Pages, disponible en la cabecera de este repositorio y/o [_aquí_](https://vianeylararangel.github.io/MEX-008-Cipher/src).
 
-- Este proyecto se está resolviendo de manera individual, en 2 sprints con entrega para demo c/Viernes.
+### Introducción (Pendiente)
+_Aquí nombre del producto_ es una encriptador de 2 vías (cifra & descifra).
 
-- Instalación: Dar click a la liga de GitHub Pages, disponible en la cabecera de este repositorio y/o [_aquí_](https://vianeylararangel.github.io/MEX-008-Cipher/src).
+Funciona utlizando una "llave" númerica que sólo conoce *Quién cifra* el mensaje y que transmite a *Quién descifra*. Al introducir los textos en los apartados designados y una vez colocada la "llave" númerica, podremos visualizar el resultado y así comenzar a crear invitaciones, juegos, organizar eventos y muchas cosas más.
+
+#### Detalles del proyecto
+
+- Metodología:
+  Este proyecto se resolvió de manera individual, bajo metodología Ágile con tablero KanBan y en 2 sprints, con entrega para demo c/Viernes.
 
 - Herramientas:
   GitHub y GitHub Pages.
 
-### Detalles del proyecto
+- Front-End:
+  
+  * La lógica del proyecto está implementada completamente en JavaScript (ES6)
 
-- La lógica del proyecto está implementada completamente en JavaScript (ES6).
+  * En este proyecto **NO** se usaron librerías o frameworks, unícamente
+  [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e), CSS3 y HTML5.
 
-- En este proyecto **NO** se usaron librerías o frameworks de Javascript o de CSS, unícamente
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
-
-- No fué utilizada la _pseudo-variable_ `this`.
-
-## Vamos a los detalles. Consideraciones Técnicas
-
-Con respecto a las reglas/guías de estilo, se usaron las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint` que proporcionó **LABORATORIA** cómo _estandar_.
-
-Los tests unitarios deben cubrieron un mínimo del ***QUE PORCENTAJE??%*** de _statements_, _functions_
-y _lines_, y un mínimo del ***QUE PORCENTAJE***% de _branches_. El _boilerplate_ ya contiene el
-setup y configuración necesaria para ejecutar los tests (pruebas) solo se requiere que el comando `npm run test` sea ejecutado en la consola del proyecto.
+  * No fué utilizada la _pseudo-variable_ `this`.
+  * Con respecto a las reglas/guías de estilo, se usaron las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint` que proporcionó **LABORATORIA** cómo _estandar_.
 
 
-# ABRE UX
+# Definición del producto
 
-#### Definición del producto
+#### Acerca del diseño de experiencia de usuario (User Experience Design):
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+Cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+Los ejes del desarrollo UX utilizados serían USER CENTRICITY y DESIGN THINKING, por lo tanto considero que es muy importante responder a los cuestionamientos siguientes:
 
-- Quiénes son los principales usuarios de producto.
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
+- ¿Quiénes son los principales usuarios de producto?.
 
-Diseño de experiencia de usuario (User Experience Design):
+- ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?.
 
+- ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?.
+
+#### El proceso
 - Ideación
+  
+[Lluvia de ideas(![Lluvia de ideas](Crear documento))]
+
 - Prototipado (sketching)
+  * Sketch 1.0
+    - Demo con [MARVEL](https://marvelapp.com/7487ga3)
+
+    - Feedback 
+    
+      * Una compañera de squad, Mariela, probó el sketch inicial en papel a los 5 minutos de creado y su aportación fué que necesitaba más resolución y un botón para regresar y volver a comenzar, platicando la función de "ese" botón sería limpiar la pantalla.
+
+      Conclusión: Agregar un botón que limpie la pantalla, tal vez que refresque el navegador.
+
+     ![Mariela](src/img/DSC_0043.JPG)
+    
+      * Luis Ruiz probó el sketch mientras los entrevistaba, puedes escuchar el [audio](src/img/entrevistaSketch1.mp3), no logró completar el flujo de la aplicación y el explica que es porque no entiende dónde debe introducir el texto, que sería más entendible que diga "¿Que quieres escribir? porque no sabe si, entonces debe cifrar o descifrar.
+
+      Conclusión: Cambiar el texto del input para cifrar a ¿Que quieres escribir? o literal, ¿Que quieres cifrar?.
+
+      
+        
+  * Sketch 2.0
 - Pruebas con usuarios (User Testing) e Iteración
 
-# Lluvia de ideas
-
-//Puedes usar este ejemplo para subir la vista preliminar del sketch
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
 ## Objetivos del proyecto
 
@@ -138,7 +155,7 @@ Video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
 resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)
 
 - [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
 
