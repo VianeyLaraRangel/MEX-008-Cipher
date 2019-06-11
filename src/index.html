@@ -29,13 +29,20 @@
   <!--Caja media que contiene los input-->
   <div>
     <aside>
-      <article><input type="text"></article>
-      <article><input type="text"></article>
+      <!--Aquí va la corrección UX sobre que no se entiende la redacción-->
+      <label for="cifrar">¿Que quieres escribir?</label>
+      <article><input type="text" name="cifrar"></article>
+      
+      <label for="offset">Offset</label>
+      <article><input type="number" name="offset" min="0" max="100"></article>
+      
+      <label for="descifrar">¿Que quieres leer?</label>
+      <article><input type="text" name="descifrar"></article>
     </aside>
   </div> 
   <!--Caja inferior que contiene el footer-->
   <div>
-    <footer>Vianey Lara</footer>
+    <footer>Vianey Lara Junio 2019</footer>
   </div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
