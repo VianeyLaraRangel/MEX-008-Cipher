@@ -14,32 +14,39 @@
       <h1>marca-código césar</h1>
     </header>
   </div>
-  <!--Caja superior que contiene botones no indispensables-->
+  <hr>
+
+  <!--Caja superior que contiene el offset para darle jerarquía-->
   <div class="second-buttons">
-    <nav></nav>
+    <nav>
+      <label for="offset">Llave</label>
+      <article><input type="number" name="offset" min="0" max="1000" placeholder="Ej.123"></article>
+    </nav>
   </div>
-  <!--Caja media que contiene los botones principales-->
-  <div class="principal-buttons">
-    <section>
-      <article><button>cifrar</button></article>
-      <article><button>limpiar</button></article>
-      <article><button>descifrar</button></article>
-    </section>
-  </div>
+
   <!--Caja media que contiene los input-->
   <div>
     <aside>
       <!--Aquí va la corrección UX sobre que no se entiende la redacción-->
       <label for="cifrar">¿Que quieres escribir?</label>
-      <article><input type="text" name="cifrar"></article>
-      
-      <label for="offset">Offset</label>
-      <article><input type="number" name="offset" min="0" max="100"></article>
-      
+      <article><input type="text" name="cifrar" placeholder="Ingresa texto"></article>
+
       <label for="descifrar">¿Que quieres leer?</label>
-      <article><input type="text" name="descifrar"></article>
+      <article><input type="text" name="descifrar" placeholder="Traducción"></article>
     </aside>
-  </div> 
+  </div>
+
+  <!--Caja media inferior que contiene los botones principales-->
+  <div class="principal-buttons">
+    <section>
+      <article>
+          <button>cifrar</button>
+          <button>limpiar</button>
+          <button>descifrar</button>
+      </article>
+    </section>
+  </div>
+
   <!--Caja inferior que contiene el footer-->
   <div>
     <footer>Vianey Lara Junio 2019</footer>
