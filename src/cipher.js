@@ -5,5 +5,6 @@ cipher.encode(offset, string): offset es el número de posiciones que queremos m
 cipher.decode(offset, string): offset es el número de posiciones que queremos mover a la izquierda en el alfabeto y string el mensaje (texto) que queremos descifrar.*/
 
 window.cipher = {
-  // ... 
+    
 };
+
