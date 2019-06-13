@@ -26,35 +26,35 @@ body {
     margin-inline-start: 37%;
     margin-top: 10px;
  }
+ .input-style-offset {
+    text-align: center;
+    border-radius: 5px;
+    width: 30%;
+}
 
  .input-style {
      text-align: center;
      border-radius: 5px;
-     
+     width: 60%;
  }
  
- .textOne {
-   font-weight: bold;
+ .input-box {
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-inline-start: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px
  }
  
  .textTwo {
    font-style: italic;
    font-weight: lighter;
  }
- 
- 
- .inputStyle {
-   background-color: #85FF90;
-   background-image: linear-gradient(to left, green, white);
-   /*ANCHURA*/
-   width: 40%;
-   /*PADDING: AREA ALREDEDOR*/
-   padding: 20px 20px;
-   /* BORDER-RADIUS PARA REDONDEAR ESQUINAS */
-   border-radius: 10px;
- }
- 
- 
+  
  .textThree {
    font-style: italic;
    font-weight: condensed;
