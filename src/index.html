@@ -19,8 +19,11 @@
   <!--Caja superior que contiene el offset para darle jerarquía-->
   <div class="second-buttons">
     <nav>
-      <label for="offset">Llave</label>
-      <article><input type="number" id="offset-box" name="offset" min="1" max="1000" placeholder="Ej.123"></article>
+      <form action="">
+          <label for="offset">Llave</label>
+          <input type="number" id="offset-box" name="offset" min="1" max="1000" placeholder="Ej.123">
+          <button type="reset" id="send-offset">Comenzar</button>
+      </form>
     </nav>
   </div>
 
@@ -29,10 +32,10 @@
     <aside>
       <!--Aquí va la corrección UX sobre que no se entiende la redacción-->
       <label for="cifrar">¿Que quieres escribir?</label>
-      <article><input type="text" name="cifrar" placeholder="Ingresa texto"></article>
+      <article><input type="text" id="decodex-string" name="cifrar" placeholder="Ingresa texto"></article>
 
       <label for="descifrar">¿Que quieres leer?</label>
-      <article><input type="text" name="descifrar" placeholder="Traducción"></article>
+      <article><input type="text" id="encodex-string" name="descifrar" placeholder="Traducción"></article>
     </aside>
   </div>
 
