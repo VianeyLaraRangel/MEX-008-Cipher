@@ -21,7 +21,7 @@
       <form action="">
           <label for="offset">Llave</label>
           <input type="number" id="offset-box" name="offset" min="1" max="1000" placeholder="Ej.123" class="input-style-offset">
-          <!--<button type="reset" id="send-offset">Comenzar</button>-->
+          <button type="reset" id="send-offset">Comenzar</button>
       </form>
     </nav>
   </div>
@@ -31,7 +31,7 @@
     <aside>
       <!--Aquí va la corrección UX sobre que no se entiende la redacción-->
       <label for="cifrar">¿Que quieres escribir?</label>
-      <article><input type="text" id="decodex-string" name="cifrar" placeholder="Ingresa texto" class="input-style"></article>
+      <article><input type="text" id="encode-string" name="cifrar" placeholder="Ingresa texto" class="input-style"></article>
 
       <label for="descifrar">¿Que quieres leer?</label>
       <article><input type="text" id="encodex-string" name="descifrar" placeholder="Traducción" class="input-style"></article>
@@ -42,7 +42,7 @@
   <div class="principal-buttons">
     <section>
       <article>
-          <button>cifrar</button>
+          <button id="button-cifrar">cifrar</button>
           <button>limpiar</button>
           <button>descifrar</button>
       </article>
