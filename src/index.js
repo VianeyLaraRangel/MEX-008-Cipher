@@ -1,8 +1,8 @@
 /*LABORATORIA: Aquí debes escuchar eventos del DOM, invocar cipher.encode() o cipher.decode() según sea necesario y actualizar el resultado en la UI.*/
 
 //Botones que van a lanzar las funciones
-let buttonCifrar = document.getElementById('button-cifrar');
-let buttonDescifrar = document.getElementById('decode-string');
+const buttonCifrar = document.getElementById('button-cifrar');
+const buttonDescifrar = document.getElementById('decode-string');
 
 //Eventos del DOM en donde se trae la data del html e invocación de funciones
 buttonCifrar.addEventListener('click', () => {
