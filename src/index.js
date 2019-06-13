@@ -1,12 +1,8 @@
-
 /*LABORATORIA: Aquí debes escuchar eventos del DOM, invocar cipher.encode() o cipher.decode() según sea necesario y actualizar el resultado en la UI.*/
 
 //Detonar eventos del DOM
 //offsetKey.addEventListener('click', window.cipher.encode());
 
-
-//Declarar una función que obtenga los datos del DOM
-const getData = () => {
 //PASO 1: Obtener número de desplazamiento (offset/key/llave), guardárlo en una varible y convertirlo a entero (parseInt). (Pasarlo como parámetro al objeto window.cipher)
 const offsetKey = document.getElementById('offset-box').value;
 console.log('holaaaa');
