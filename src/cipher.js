@@ -2,6 +2,7 @@
 
 window.cipher = {
     encode: (offset, string) => {
+        let result = '';
         console.log(offset, string);
 //PASO 3: Iterar sobre la palabra para saber cuantas letras cifraremos
     for (let i=0; i<string.length; i++) {
@@ -9,10 +10,10 @@ window.cipher = {
         //console.log(positionAscci);
         let positionEncode =((positionAscci-65 + offset) %26 + 65);
         //console.log(positionEncode);
-        let result = String.fromCharCode(positionEncode);
-        console.log(result);
+        result += String.fromCharCode(positionEncode);
+        //console.log(result);
         }
-    return (cipher.encoderesult);
+    return (result);
     },
     decode: (offset, string) => {
         console.log(offset, string);

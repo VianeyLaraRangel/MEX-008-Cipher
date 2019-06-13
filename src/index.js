@@ -8,8 +8,9 @@ const buttonDescifrar = document.getElementById('decode-string');
 buttonCifrar.addEventListener('click', () => {
     let offsetKey = document.getElementById('offset-box');
     let encodeString = document.getElementById('encode-string');
+    document.getElementById('decode-string').value = window.cipher.encode(offsetKey.value, encodeString.value);
     //console.log(encodeString.value);
-        window.cipher.encode(offsetKey.value, encodeString.value);
+        
 });
 
 buttonDescifrar.addEventListener('click', () => {
@@ -19,6 +20,9 @@ buttonDescifrar.addEventListener('click', () => {
         window.cipher.decode(offsetKey.value, decodeString.value);
 });
 
+//Imprimir resultado en el input correspondiente
+
+
 //PASO 1: Obtener offset (convertirlo a entero (parseInt)) y el string a cifrar, luego guardár la data en una varible.
 //PASO 2: Obtener la cadena/string del texto a cifrar y convertirlo a mayúscula.(Pasarlo como parámetro al objeto window.cipher)
 //PASO 3.1: Saber cuál es la posición ascci para c/letra que se recorre
@@ -26,5 +30,3 @@ buttonDescifrar.addEventListener('click', () => {
 //PASO 3.3: Teniendo la posición definitiva de cifrado, transformar a alfabeto y guardarlo en una variable
 //PASO 4: Imprimir resultado en el input correspondiente
 //document.getElementById(encodex-string).value.innerHTML
-
-
