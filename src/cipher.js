@@ -2,9 +2,11 @@
 
 window.cipher = {
     encode: (offset, string) => {
-        console.log (offset, string);
+        console.log(offset, string);
 //PASO 3: Iterar sobre la palabra para saber cuantas letras cifraremos
     //for (let i= 0; i<(string.length); i++) {
+
+    //}
 //PASO 3.1: Saber cuál es la posición ascci para c/letra que se recorre
         //let asciiPosition = string.charCodeAt(i);
         //console.log('asciiPosition');
@@ -14,6 +16,9 @@ window.cipher = {
 
 //PASO 3.3: Teniendo la posición definitiva de cifrado, transformar a alfabeto y guardarlo en una variable
     //let result = String.fromCharCode(enCodexString);
-    }
+    },
     //return (result);
+    // decode: (offset, string) => {
+    //     //console.log(offset, string);
+    // }
 };
