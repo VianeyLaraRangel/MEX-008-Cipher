@@ -1,16 +1,23 @@
 
 /*LABORATORIA: Aquí debes escuchar eventos del DOM, invocar cipher.encode() o cipher.decode() según sea necesario y actualizar el resultado en la UI.*/
 
-//PASO 1: Obtener número de desplazamiento (offset/key/llave), guardárlo en una varible y convertirlo a entero.
-
-let offset = parseInt(document.getElementById('offset-box').value);
-//console.log(key);
-
-//PASO 2: Obtener la cadena/string del texto a cifrar y convertirlo a mayúscula
-let string = document.getElementById('decodex-string').value.toUpperCase();
-//console.log(codexString);
+//Detonar eventos del DOM
+//offsetKey.addEventListener('click', window.cipher.encode());
 
 
+//Declarar una función que obtenga los datos del DOM
+const getData = () => {
+//PASO 1: Obtener número de desplazamiento (offset/key/llave), guardárlo en una varible y convertirlo a entero (parseInt). (Pasarlo como parámetro al objeto window.cipher)
+const offsetKey = document.getElementById('offset-box').value;
+console.log('holaaaa');
+}
+
+//PASO 2: Obtener la cadena/string del texto a cifrar y convertirlo a mayúscula.(Pasarlo como parámetro al objeto window.cipher)
+// let string = document.getElementById('decodex-string').value;
+// //console.log(codexString);
+
+//PASO 4: Imprimir resultado en el input correspondiente
+//document.getElementById(encodex-string).value.innerHTML
 
 
 
@@ -19,15 +26,6 @@ let string = document.getElementById('decodex-string').value.toUpperCase();
 // codexString.charCodeAt(0);
 // console.log(codexString);
 
-//Detonar el evento del input de desplazamiento (offset o key)
-//offsetKey.addEventListener('click', window.cipher.encode());
-
-
-//Invoca la data que obtuvimos
-//cipherData();
-//Aquí invoco las funciones
-//window.cipher.encode();
-
-
-//Hacer una función que obtenga los datos del DOM
-//const cipherData = (codexOrDecodex) => {}
+//Invoca las funciones que obtuvimos
+getData();
+// window.cipher.encode();
