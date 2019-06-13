@@ -9,16 +9,11 @@ window.cipher = {
         //console.log(positionAscci);
         let positionEncode =((positionAscci-65 + offset) %26 + 65);
         //console.log(positionEncode);
-    }
-
-    
-//PASO 3.2: Aplicar fórmula al texto ascci para saber cual es la nueva posición (x -65 + n) % 26 +65*
-        
-
-//PASO 3.3: Teniendo la posición definitiva de cifrado, transformar a alfabeto y guardarlo en una variable
-    //let result = String.fromCharCode(enCodexString);
+        let result = String.fromCharCode(positionEncode);
+        console.log(result);
+        }
+    return (cipher.encoderesult);
     },
-    //return (result);
     decode: (offset, string) => {
         console.log(offset, string);
      }
