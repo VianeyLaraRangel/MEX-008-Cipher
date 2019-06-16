@@ -10,7 +10,7 @@ window.cipher = {
         for (let i=0; i<stringMayusc.length; i++) {
             let positionAscci = stringMayusc.charCodeAt(i);
             //console.log(positionAscci);
-            let positionEncode =((positionAscci-65 + offsetParsed) %26 + 65);
+            let positionEncode =((positionAscci-65+offsetParsed)%26+65);
             //console.log(positionEncode);
             result += String.fromCharCode(positionEncode);
             //console.log(result);
@@ -19,14 +19,14 @@ window.cipher = {
     },
     decode: (offset, string) => {
         let resultDecode = '';
-        let stringMayusc = (string.toUpperCase());
-        //console.log(stringMayusc);
+        //let stringMayusc = (string.toUpperCase());
+            //console.log(stringMayusc);
         let offsetParsed = (parseInt(offset));
-        //console.log(offsetParsed);
-        for (let i=0; i<stringMayusc.length; i++) {
-            let positionAscci = stringMayusc.charCodeAt(i);
-            //console.log(positionAscci);
-            let positionDecode = ((positionAscci+65 + offsetParsed)%26+65);
+            console.log(offsetParsed);
+        for (let i=0; i<string.length; i++) {
+            let positionAscci = string.charCodeAt(i);
+            console.log(positionAscci);
+            let positionDecode = ((positionAscci-65-offsetParsed)%26+65);
             //console.log(positionDecode);
             resultDecode += String.fromCharCode(positionDecode);
             console.log(resultDecode);
