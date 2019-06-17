@@ -3,6 +3,7 @@
 //Botones que van a detonar eventos y en donde se trae la data del html
 const buttonCifrar = document.getElementById('button-cifrar');
 const buttonDescifrar = document.getElementById('button-descifrar');
+const buttonLimpiar = document.getElementById('button-limpiar');
 
 //Eventos click del DOM  funciones
 buttonCifrar.addEventListener('click', () => {
@@ -20,6 +21,11 @@ buttonDescifrar.addEventListener('click', () => {
     let decodeString = document.getElementById('decode-string');
         //console.log(decodeString.value);
     document.getElementById('encode-string').value = window.cipher.decode(offsetKey.value, decodeString.value);
+});
+
+buttonLimpiar.addEventListener('click', () => {
+    document.getElementById('formulario-offset').reset();
+    document.getElementById('formulario-input').reset();
 });
 
 //Imprimir resultado en el input correspondiente
