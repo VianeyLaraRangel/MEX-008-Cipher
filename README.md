@@ -1,47 +1,71 @@
-# Cifrado César 
+# Cifrado César (Encriptador de palabras)
+
+## El reto
+Para el primer proyecto del Bootcamp de la 8va generación de Laboratoria, nos han retado a realizar una página web que permita a los "usuarios" encriptar y desencriptar una palabra por medio de una llave númerica.
+
+## Introducción
+
+_DECOTIP_ es una encriptador de 2 vías (cifra/descifra).
+
+Funciona utlizando una "llave" númerica que sólo conoce **_Quién cifra_** el mensaje y que transmite a **_Quién descifra_**.
+
+Esta llave numérica permitirá que el texto "se mueva" en el alfabeto para obtener un nuevo texto difícil de leer para quien **no tenga** la "la llave" de cifrado.
+
+ Los usuarios que **si tengan** una "llave" y que reciben el texto difícil de leer, podrán obtener el texto original cómo resultado y así comenzar a crear invitaciones, juegos, organizar eventos y muchas cosas más.
 
 ## Consideraciones generales
 
   ### Instalación
    - ¿Cómo visualizo el producto final?
 
-      Dar click a la liga de GitHub Pages, disponible en la cabecera de este repositorio y/o [_aquí_](https://vianeylararangel.github.io/MEX-008-Cipher/src).
+   La demo del producto está disponible gracias al host de GitHub Pages.
+   
+  Puedes acceder dando click al enlace que se encuentra en la cabecera de este repositorio y/o dando click aquí en [_DEMO_](https://vianeylararangel.github.io/MEX-008-Cipher/src).
 
-### Introducción (Pendiente)
-_Aquí nombre del producto_ es una encriptador de 2 vías (cifra & descifra).
-
-Funciona utlizando una "llave" númerica que sólo conoce *Quién cifra* el mensaje y que transmite a *Quién descifra*. Al introducir los textos en los apartados designados y una vez colocada la "llave" númerica, podremos visualizar el resultado y así comenzar a crear invitaciones, juegos, organizar eventos y muchas cosas más.
-
-#### Detalles del proyecto
+  ### Detalles del proyecto
 
 - Metodología:
-  Este proyecto se resolvió de manera individual, bajo metodología Ágile con tablero KanBan y en 2 sprints, con entrega para demo c/Viernes.
+  
+  Fué usado el método **Ágile** por medio de tablero **Kanban en papel** para ser usado por el  _SQUAD_ de trabajo y con _TRELLO_ para el tablero **Kanban digital** que usé personalmente en el desarrollo del proyecto.
+  
+  Todo fué resuelto de manera individual, durante 2 sprints c/u con duración de 1 semana y con entrega para demo cada Viernes.
 
 - Herramientas:
-  GitHub y GitHub Pages.
 
-- Front-End:
+  * GitHub y GitHub Pages: Control de versiones y hosting.
+  * Trello: Organización y gestión de tareas.
+  * Figma: Prototipo de alta fidelidad.
+  * Marvel: Demo de prototipos de baja fidelidad (sketch).
+  * Editor de texto: Visual Studio Code.
+
+- Consideraciones del Front-End development:
   
-  * La lógica del proyecto está implementada completamente en JavaScript (ES6)
+  * La lógica del proyecto está implementada completamente en JavaScript (ES6).
 
   * En este proyecto **NO** se usaron librerías o frameworks, unícamente
   [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e), CSS3 y HTML5.
 
   * No fué utilizada la _pseudo-variable_ `this`.
+
   * Con respecto a las reglas/guías de estilo, se usaron las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint` que proporcionó **LABORATORIA** cómo _estandar_.
+
+- Consideraciones del User Experience Design:
+
+  * Los ejes temáticos que se utilizaron principalmente:
+
+    * User centricity.
+    * Design Thinking.
 
 
 # Definición del producto
 
-#### Acerca del diseño de experiencia de usuario (User Experience Design):
+#### Acerca del "User Experience Design":
 
 Cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
-Los ejes del desarrollo UX utilizados serían USER CENTRICITY y DESIGN THINKING, por lo tanto considero que es muy importante responder a los cuestionamientos siguientes:
 
 - ¿Quiénes son los principales usuarios de producto?.
 
-- ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?.
-
+- ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 - ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?.
 
 #### El proceso
