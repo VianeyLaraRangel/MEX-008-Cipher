@@ -22,14 +22,14 @@ window.cipher = {
         //let stringMayusc = (string.toUpperCase());
             //console.log(stringMayusc);
         let offsetParsed = (parseInt(offset));
-            console.log(offsetParsed);
+            //console.log(offsetParsed);
         for (let i=0; i<string.length; i++) {
             let positionAscci = string.charCodeAt(i);
-            console.log(positionAscci);
-            let positionDecode = ((positionAscci-65-offsetParsed)%26+65);
+            //console.log(positionAscci);
+            let positionDecode = ((positionAscci+65-offsetParsed)%26+65);
             //console.log(positionDecode);
             resultDecode += String.fromCharCode(positionDecode);
-            console.log(resultDecode);
+            //console.log(resultDecode);
             }
         return (resultDecode);
     }
