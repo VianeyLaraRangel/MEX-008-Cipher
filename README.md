@@ -222,6 +222,10 @@ resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 Rubrica de evaluación
 
+#### Referencias
+
+https://www.eff.org/deeplinks/2018/03/secure-messaging-more-secure-mess
+
 ## Checklist
 Esta sección fué creada por *LABORATORIA* para ayudarme a llevar un control de las partes obligatorias que debia cumplir.
 
