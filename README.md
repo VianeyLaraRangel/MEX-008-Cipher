@@ -59,40 +59,77 @@ Esta llave numérica permitirá que el texto "se mueva" en el alfabeto para obte
 
 # Definición del producto
 
-#### Acerca del "User Experience Design":
+#### Resumen
 
-Cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+DECOTIP es un página web intuitiva y simple.
 
-- ¿Quiénes son los principales usuarios de producto?.
+#### Acerca del "User Experience Design"
 
-- ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
-- ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?.
+1. **Planteamiento del problema**
+
+Al observar que las generaciones nativas de la tecnología **ya NO quieren** realizar actividades que no estén relacionadas a los gadgets y al internet, nos damos cuenta que mientras el router del wi-fi en nuestras casas está prendido, es proveedor de potenciales distracciones.
+
+ Al mismo tiempo es indispensable para la realización de actividades y servicios cómo la alarma del hogar, entre otras.
+ 
+    ¿Cómo podríamos limitar a los niñxs o adolescentes en el uso de internet sin tener que apagar el router?
+
+    La respuesta que propongo es, cambiando la clave del wi-fi.
+
+2. **¿Quiénes son los principales usuarios del producto?.**
+
+        Personas adultas de cualquier generación, que tienen niñxs o adolescentes en casa y que quieren involucrarlos en las tareas del hogar. 
+
+  3. **¿Cuáles son los objetivos de estos usuarios en relación con tu producto?.**
+
+          Cifrar la clave del wi-fi cómo "un mecanismo eficiente de recompensa/castigo" y entregarla al cumplimiento de las tareas asignadas a los niñxs o adolescentes para promover el bienestar de la familia.
+
+
+ Teniendo la solución al problema, después se encontrarán muchas otras aplicaciones al producto.
+
+4. **¿Cómo crees que el producto que estás creando está resolviendo sus problemas?.**
+
+- El uso moderado del **internet** en dispositivos móviles en niñxs y adolescentes, les permitirá aprovecharlo y valorar cada momento de conexión.
+
+- Proporcionar posibilidades **DIARIAS** de cifrado, mientras que la comunicación y complicidad de la parejx se vé favorecida, permitiendo que sus intenciones estén ocultas.
+
+        Favorecer que los niñxs "conecten con el mundo" y que las familias cumplan con sus responsabilidades.
 
 #### El proceso
-- Ideación
-  
-[Lluvia de ideas(![Lluvia de ideas](Crear documento))]
 
-- Prototipado (sketching)
-  * Sketch 1.0
-    - Demo con [MARVEL](https://marvelapp.com/7487ga3)
+1. Ideación:
 
-    - Feedback 
-    
-      * Una compañera de squad, Mariela, probó el sketch inicial en papel a los 5 minutos de creado y su aportación fué que necesitaba más resolución y un botón para regresar y volver a comenzar, platicando la función de "ese" botón sería limpiar la pantalla.
+    Se llevo a cabo una **_"Lluvia de ideas"_** para generar la temática del producto.
+     - Logística secreta para una fiesta de compromiso o cumpleaños.
+     - Cifrado de localizaciones y mensajes para la seguridad de periodistas.
+     - **Comunicación de parejas con hijos para cifrar la clave del wi-fi cuándo los hijos no han realizado sus labores y mensajes en tableros que sólo ellos pueden leer.** _`(¡Elegido!)`_
+     - Eventos exclusivos con localizaciones secretas para verdaderos fans de grupos de rock.
+     - Un diario personal encriptado para no permitir que nadie lea tus secretos.
+    - Seguimiento de compras, encriptar una referencia para que la persona correcta reciba lo que compró.
 
-      Conclusión: Agregar un botón que limpie la pantalla, tal vez que refresque el navegador.
+Determiné que iba a usar la tercer idea (en negritas) ya que resuelve un problema concreto que se podría escalar a más. Pensé en que el concepto ayudaría a formar el nombre de la marca.
 
-     ![Mariela](src/img/DSC_0043.JPG)
-    
-      * Luis Ruiz probó el sketch mientras los entrevistaba, puedes escuchar el [audio](src/img/entrevistaSketch1.mp3), no logró completar el flujo de la aplicación y el explica que es porque no entiende dónde debe introducir el texto, que sería más entendible que diga "¿Que quieres escribir? porque no sabe si, entonces debe cifrar o descifrar.
+**DECOTIP** = DECO: En referencia a encriptar/descifrar && TIP: de nota (como los post-it).
 
-      Conclusión: Cambiar el texto del input para cifrar a ¿Que quieres escribir? o literal, ¿Que quieres cifrar?.
+La idea es transmitir "Cifra/descifra notitas".
 
+2.  Prototipado (sketching)
+    * Primer sprint
+      - Sketch 1.0
+      - Demo con [MARVEL](https://marvelapp.com/7487ga3)
+      - Feedback 
       
-        
-  * Sketch 2.0
-- Pruebas con usuarios (User Testing) e Iteración
+       1. Una compañera de squad, Mariela, probó el sketch inicial en papel a los 5 minutos de creado y su aportación fué que necesitaba más resolución y un botón para regresar y volver a comenzar, platicando la función de "ese" botón sería limpiar la pantalla.
+
+      **Conclusión**: Agregar un botón que limpie la pantalla, tal vez que refresque el navegador.
+
+        ![Mariela](src/img/DSC_0043.JPG)
+    
+      2. Luis Ruiz probó el sketch mientras lo entrevistaba, puedes escuchar el [audio](src/img/entrevistaSketch1.mp3). No logró completar el flujo de la aplicación y me explica que es porque no entiende dónde debe introducir el texto, que sería más entendible que diga "¿Que quieres escribir? porque no sabe si, entonces debe cifrar o descifrar.
+
+      **Conclusión**: Cambiar el texto del input para cifrar a ¿Que quieres escribir? o literal, ¿Que quieres cifrar?.
+
+      - Sketch 2.0
+      - Pruebas con usuarios (User Testing) e Iteración
 
 
 ## Objetivos del proyecto
