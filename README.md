@@ -1,18 +1,20 @@
 # Cifrado César (Encriptador de palabras)
 
 ## El reto
-Para el primer proyecto del Bootcamp de la 8va generación de Laboratoria, nos han retado a realizar una página web que permita a los "usuarios" encriptar y desencriptar una palabra por medio de una llave númerica.
+
+Para crear la primera aplicación web del _bootcamp_ de la 8va generación en **LABORATORIA**, diseñé un producto que servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_) a la cuál llamo "llave".
 
 ## Introducción
 
 _DECOTIP_ es una encriptador de 2 vías (cifra/descifra).
 
-Funciona utlizando una "llave" númerica que sólo conoce **_Quién cifra_** el mensaje y que transmite a **_Quién descifra_**.
+Funciona utlizando una "_llave_" númerica que sólo conoce **_Quién cifra_** el mensaje y que transmite a **_Quién descifra_**.
 
-Esta llave numérica permitirá que el texto "se mueva" en el alfabeto para obtener un nuevo texto difícil de leer para quien **no tenga** la "la llave" de cifrado.
+Esta llave numérica permitirá que el texto "_se mueva_" en el alfabeto para obtener un nuevo texto difícil de leer para quien **no tenga** la "_llave_" de cifrado.
 
  Los usuarios que **si tengan** una "llave" y que reciben el texto difícil de leer, podrán obtener el texto original cómo resultado y así comenzar a crear invitaciones, juegos, organizar eventos y muchas cosas más.
 
+#
 ## Consideraciones generales
 
   ### Instalación
@@ -20,7 +22,7 @@ Esta llave numérica permitirá que el texto "se mueva" en el alfabeto para obte
 
    La demo del producto está disponible gracias al host de GitHub Pages.
    
-  Puedes acceder dando click al enlace que se encuentra en la cabecera de este repositorio y/o dando click aquí en [_DEMO_](https://vianeylararangel.github.io/MEX-008-Cipher/src).
+  Puedes acceder dando click al enlace que se encuentra en la cabecera de este repositorio y/o dando click [aquí DEMO](https://vianeylararangel.github.io/MEX-008-Cipher/src).
 
   ### Detalles del proyecto
 
@@ -28,7 +30,7 @@ Esta llave numérica permitirá que el texto "se mueva" en el alfabeto para obte
   
   Fué usado el método **Ágile** por medio de tablero **Kanban en papel** para ser usado por el  _SQUAD_ de trabajo y con _TRELLO_ para el tablero **Kanban digital** que usé personalmente en el desarrollo del proyecto.
   
-  Todo fué resuelto de manera individual, durante 2 sprints c/u con duración de 1 semana y con entrega para demo cada Viernes.
+  Todo fué resuelto de manera individual, durante **2 sprints** c/u con duración de 1 semana y con entrega para demo cada Viernes.
 
 - Herramientas:
 
@@ -62,18 +64,19 @@ Esta llave numérica permitirá que el texto "se mueva" en el alfabeto para obte
 #### Resumen
 
 DECOTIP es un página web intuitiva y simple.
+Se basa en un modelo de negocio ...
 
 #### Acerca del "User Experience Design"
 
 1. **Planteamiento del problema**
 
-Al observar que las generaciones nativas de la tecnología **ya NO quieren** realizar actividades que no estén relacionadas a los gadgets y al internet, nos damos cuenta que mientras el router del wi-fi en nuestras casas está prendido, es proveedor de potenciales distracciones.
+Al observar que las generaciones nativas de la tecnología **ya NO quieren** realizar actividades al aire libre o tareas del hogar, porque no están relacionadas a los gadgets y al internet, nos damos cuenta que mientras el router del wi-fi en nuestras casas está prendido, es proveedor de potenciales distracciones.
 
  Al mismo tiempo es indispensable para la realización de actividades y servicios cómo la alarma del hogar, entre otras.
  
-    ¿Cómo podríamos limitar a los niñxs o adolescentes en el uso de internet sin tener que apagar el router?
+¿Cómo podríamos limitar a los niñxs o adolescentes en el uso de internet sin tener que apagar el router?
 
-    La respuesta que propongo es, cambiando la clave del wi-fi.
+##### La respuesta que propongo es, cambiando la clave del wi-fi.
 
 2. **¿Quiénes son los principales usuarios del producto?.**
 
@@ -131,19 +134,14 @@ La idea es transmitir "Cifra/descifra notitas".
       - Sketch 2.0
       - Pruebas con usuarios (User Testing) e Iteración
 
+### Creación de una marca para el producto
 
-## Objetivos del proyecto
-
-Para crear la primera aplicación web del _bootcamp_ en **LABORATORIA**, crearemos un producto que servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
-
-###Creación de una marca para el producto
-- Mensajería secreta para amigxs, parejas enfocada a la logística de eventos sorpresa.
+- Mensajería para adultos que tengan a su cargo niñxs y adolescentes que usan demasiadas horas al día para navegar por interne
 
 NOTA DE VIANEY: Aquí hay que justificar porqué se eligió esta opción.
 
-# CIERRA UX
+#
 
-# ABRE FED
 #### Interfaz de usuario (UI)
 
 La interfaz debe permitir al usuario:
@@ -153,72 +151,22 @@ La interfaz debe permitir al usuario:
 - Insertar un mensaje (texto) a descifrar.
 - Ver el resultado del mensaje descifrado.
 
-Desarrollo Front-end:
-
-* Valores
-* Tipos
-* Variables
-* Control de flujo
-* Pruebas nitarias (Unit test)
-* [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
-* [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
-* [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
-* [Documentación de NPM](https://docs.npmjs.com/)
-
-# CIERRA FED
-
-## Objetivos de aprendizaje
-
-NOTA DE VIANEY: Verifica que estás aplicando lo aprendido de acuerdo a estos objetivos.
-
-- Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-- Permitir al usuario interactuar (**eventos del DOM**) y hacer algo cuando ocurran dichos eventos (cifrar/descifrar).
-- Manipular _**strings**_ (cadenas de texto).
-- Usar **control de flujo** (bucles, condicionales, ...).
-- Actualizar la pantalla con los resultados (**manipular el DOM**).
-- **Implementar funciones** dada una descripción de su comportamiento.
-- Verificar tu implementación con **pruebas unitarias**.
-- Entender las **necesidades del usuario** y cómo proponer una solución.
-- Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
-
-#### NOTA DE VIANEY: AQUÍ ESTA QUE DEBE CONTENER C/ARCHIVO DEL BOILERPLATE
-
-* `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
-  _exportado_ en el objeto global (`window`). Este objeto (`cipher`) debe
-  contener dos métodos:
-  - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
-    que queremos cifrar.
-  - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la izquierda en el alfabeto y `string` el mensaje
-    (texto) que queremos descifrar.
-* `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
-  o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
-  
-#### NOTA DE VIANEY: SI ME SOBRA TIEMPO, AVIÉNTATE.
-## Parte opcional o “Hacker edition”
-
-Las secciones llamadas “Hacker Edition” son opcionales. Si **terminaste** con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
-
-La descripción general de este proyecto no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El **boilerplate** incluye algunos tests (comentados al principio del archivo `cipher.spec.js`) que puedes usar como punto de partida para implementar el soporte para estos casos.
-
-Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del hacker edition te invitamos a explorar también este caso por tu cuenta.
-
-#### NOTA DE VIANEY: VE TRAS ELLO!!
-
-Por otra parte, complementando la definición de tu producto, puedes plantear un modelo de negocio para tu aplicación, en el que se explique y justifique cómo podrías obtener ingresos a través de ella.
-
-***
+#
 
 ## Agradecimiento a los recursos y temas relacionados que fueron proporcionados por *LABORATORIA*.
 
-Video de Michelle que te lleva a través de la fórmula
-matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
+Video de Michelle que me llevó a través de la fórmula
+matemática del Cifrado César y un par de cosas más que debía saber para
+resolver este proyecto.
 
 ![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)
 
 - [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
+
+* [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
+* [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
+* [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
+* [Documentación de NPM](https://docs.npmjs.com/)
 
 Rubrica de evaluación
 
@@ -228,27 +176,6 @@ https://www.eff.org/deeplinks/2018/03/secure-messaging-more-secure-mess
 
 ## Checklist
 Esta sección fué creada por *LABORATORIA* para ayudarme a llevar un control de las partes obligatorias que debia cumplir.
-
-### Parte Obligatoria
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
-  mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
-  cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 * [ ] Cifra/descifra minúsculas

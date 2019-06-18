@@ -14,15 +14,15 @@ describe('cipher', () => {
       assert.equal(cipher.encode(33,"ABCDEFGHIJKLMNOPQRSTUVWXYZ"),"HIJKLMNOPQRSTUVWXYZABCDEFG" );
    });
       // Hacker edition
-    //
-    // Si decides implementar soporte para caracteres no alfabéticos descomenta
-    // el test a continuación.
-    //
-    // it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () => {
-    //   assert.equal(
-    //     cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'), 'hijklmnopqrstuvwxyzabcdefg' );
-    // });
-    //
+    // //
+    // // Si decides implementar soporte para caracteres no alfabéticos descomenta
+    // // el test a continuación.
+    // //
+    // // it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () => {
+    // //   assert.equal(
+    // //     cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'), 'hijklmnopqrstuvwxyzabcdefg' );
+    // // });
+    // //
     // Hacker edition
     //
     // Si decides implementar soporte para caracteres no alfabéticos descomenta
