@@ -14,9 +14,12 @@ window.cipher = {
                 let positionEncode =((positionAscci-65+offsetParsed)%26+65);
                 console.log(positionEncode);
                 resultEncode += String.fromCharCode(positionEncode);
-            }else if (positionAscci >= 97 && positionAscci <= 122){
+            } else if (positionAscci >= 97 && positionAscci <= 122) {
                 let positionEncode = ((positionAscci-97+offsetParsed)%26+97);
                 console.log(positionEncode);
+                resultEncode += String.fromCharCode(positionEncode);
+            } else if (positionAscci === 32) {
+                let positionEncode = positionAscci;
                 resultEncode += String.fromCharCode(positionEncode);
             } else {
                 console.log('error');   
