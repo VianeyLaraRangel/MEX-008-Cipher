@@ -24,10 +24,10 @@ window.cipher = {
         for (let i = 0; i < string.length; i++) {
             let positionAscci = string.charCodeAt(i);
             if (positionAscci >= 65 && positionAscci <= 90) {
-                let positionDecode = ((positionAscci + 65 - offsetParsed) % 26 + 65);
+                let positionDecode = ((positionAscci+65-offsetParsed) % 26 + 65);
                 resultDecode += String.fromCharCode(positionDecode);
-            } else if (positionAscci >= 97 && positionAscci <= 122) {
-                let positionDecode = ((positionAscci-97-offsetParsed)%26+97);
+            } else if (positionAscci <= 122 && positionAscci >= 97) {
+                let positionDecode = ((positionAscci+123-offsetParsed) % 26- 97);
                 resultDecode += String.fromCharCode(positionDecode);
             } else if (positionAscci === 32 || positionAscci === 165 || positionAscci === 164) {
                 let positionDecode = positionAscci;
