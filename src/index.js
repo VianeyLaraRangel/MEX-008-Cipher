@@ -22,5 +22,3 @@ buttonLimpiar.addEventListener('click', () => {
     document.getElementById('formulario-offset').reset();
     document.getElementById('formulario-input').reset();
 });
-
-//document.getElementById(encodex-string).value.innerHTML

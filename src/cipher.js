@@ -2,31 +2,18 @@ window.cipher = {
     encode: (offset, string) => {
         let resultEncode = '';
         let offsetParsed = (parseInt(offset));
-        //let stringMinusc = (string.toLowerCase());
-
         for (let i=0; i<string.length; i++) {
-            console.log(string);
-            //let stringMayusc = (string.toUpperCase());
-            let positionAscci = string.charCodeAt(i);
-            console.log(positionAscci);
-            
+            let positionAscci = string.charCodeAt(i);            
             if (positionAscci >= 65 && positionAscci <= 90) {
                 let positionEncode =((positionAscci-65+offsetParsed)%26+65);
-                console.log(positionEncode);
                 resultEncode += String.fromCharCode(positionEncode);
             } else if (positionAscci >= 97 && positionAscci <= 122) {
                 let positionEncode = ((positionAscci-97+offsetParsed)%26+97);
-                console.log(positionEncode);
                 resultEncode += String.fromCharCode(positionEncode);
-            } else if (positionAscci === 32) {
+            } else if (positionAscci === 32 || positionAscci === 165 || positionAscci === 164) {
                 let positionEncode = positionAscci;
                 resultEncode += String.fromCharCode(positionEncode);
-            } /*else if (positionAscci === 165) {
-                let positionEncode = ((positionAscci-78+offsetParsed)%26+78);
-                resultEncode += String.fromCharCode(positionEncode);
-            } else {
-                console.log('error');   
-                }*/   
+            }   
         }
     return (resultEncode);
     },
@@ -35,10 +22,17 @@ window.cipher = {
         let resultDecode = '';
         let offsetParsed = (parseInt(offset));
         for (let i = 0; i < string.length; i++) {
-            let stringMayusc = (string.toUpperCase());
-            let positionAscci = stringMayusc.charCodeAt(i);
-            let positionDecode = ((positionAscci + 65 - offsetParsed) % 26 + 65);
-            resultDecode += String.fromCharCode(positionDecode);
+            let positionAscci = string.charCodeAt(i);
+            if (positionAscci >= 65 && positionAscci <= 90) {
+                let positionDecode = ((positionAscci + 65 - offsetParsed) % 26 + 65);
+                resultDecode += String.fromCharCode(positionDecode);
+            } else if (positionAscci >= 97 && positionAscci <= 122) {
+                let positionDecode = ((positionAscci-97-offsetParsed)%26+97);
+                resultDecode += String.fromCharCode(positionDecode);
+            } else if (positionAscci === 32 || positionAscci === 165 || positionAscci === 164) {
+                let positionDecode = positionAscci;
+                resultDecode += String.fromCharCode(positionDecode);
+            }
         }
     return (resultDecode);
     }
