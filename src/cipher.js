@@ -21,9 +21,12 @@ window.cipher = {
             } else if (positionAscci === 32) {
                 let positionEncode = positionAscci;
                 resultEncode += String.fromCharCode(positionEncode);
+            } /*else if (positionAscci === 165) {
+                let positionEncode = ((positionAscci-78+offsetParsed)%26+78);
+                resultEncode += String.fromCharCode(positionEncode);
             } else {
                 console.log('error');   
-                }   
+                }*/   
         }
     return (resultEncode);
     },
