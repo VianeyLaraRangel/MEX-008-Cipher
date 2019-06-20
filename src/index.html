@@ -3,26 +3,34 @@
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <!--Caja superior que contiene la marca del producto-->
   <div class="header">
     <header>
-      <h1>DECOTIP</h1>
+        <figure class="logo">
+          <a href="#">
+            <img src="./img/logo_1.PNG" alt="logo-decotip" width="10%">
+          </a>
+        </figure>
+        <nav class="menu">
+          <ol>
+            <h1>DECOTIP</h1>
+          </ol>
+        </nav>
     </header>
   </div>
 
   <!--Caja superior que contiene el offset para darle jerarquía-->
   <div class="offset-box">
-    <nav>
       <form id="formulario-offset" action="">
         <label for="offset">Llave</label>
         <input type="number" id="offset-box" name="offset" min="1" max="1000" placeholder="Ej.123"
           class="input-style-offset">
       </form>
-    </nav>
   </div>
 
   <!--Caja media que contiene los input-->
@@ -30,13 +38,10 @@
     <aside>
       <form id="formulario-input" action="">
         <!--Aquí va la corrección UX sobre que no se entiende la redacción-->
-        <label for="cifrar">¿Que quieres escribir?</label>
-        <article><input type="text" id="encode-string" name="cifrar" placeholder="Ingresa texto" class="input-style">
-        </article>
-
-        <label for="descifrar">¿Que quieres leer?</label>
-        <article><input type="text" id="decode-string" name="descifrar" placeholder="Traducción" class="input-style">
-        </article>
+          <label for="cifrar">¿Que quieres escribir?</label>
+          <input type="text" id="encode-string" name="cifrar" placeholder="Ingresa texto" class="input-style">
+          <label for="descifrar">¿Que quieres leer?</label>
+          <input type="text" id="decode-string" name="descifrar" placeholder="Traducción" class="input-style">
       </form>
     </aside>
   </div>
@@ -44,18 +49,17 @@
   <!--Caja media inferior que contiene los botones principales-->
   <div class="principal-buttons">
     <section>
-      <article>
         <button id="button-cifrar">cifrar</button>
         <button id="button-limpiar">limpiar</button>
         <button id="button-descifrar">descifrar</button>
-      </article>
     </section>
   </div>
 
   <!--Caja inferior que contiene el footer-->
-  <div>
+  <div class="footer">
     <footer>Vianey Lara Junio 2019</footer>
   </div>
+
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
