@@ -176,6 +176,22 @@ https://www.eff.org/deeplinks/2018/03/secure-messaging-more-secure-mess
 
 ## Checklist
 Esta sección fué creada por *LABORATORIA* para ayudarme a llevar un control de las partes obligatorias que debia cumplir.
+### Parte Obligatoria
+* [x] README.md incluye info sobre proceso y decisiones de diseño.
+* [x] README.md explica claramente quiénes son los usuarios y su relación con el producto.
+* [x] README.md explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
+* [x] Usa VanillaJS.
+* [x] No utiliza this.
+* [x] Implementa cipher.encode.
+* [x] Implementa cipher.decode.
+* [x] Pasa linter con configuración provista.
+* [x] Pasa pruebas unitarias.
+* [x] Pruebas unitarias cubren 70% de statements, functions y lines, y un mínimo del 50% de branches.
+* [x] Interfaz permite elegir el offset o desplazamiento a usar en el cifrado/descifrado.
+* [x] Interfaz permite escribir un texto para ser cifrado.
+* [x] Interfaz muestra el resultado del cifrado correctamente.
+* [x] Interfaz permite escribir un texto para ser descifrado.
+* [x] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 * [ ] Cifra/descifra minúsculas
