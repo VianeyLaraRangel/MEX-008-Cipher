@@ -138,8 +138,6 @@ La idea es transmitir "Cifra/descifra notitas".
 
 - Mensajería para adultos que tengan a su cargo niñxs y adolescentes que usan demasiadas horas al día para navegar por interne
 
-NOTA DE VIANEY: Aquí hay que justificar porqué se eligió esta opción.
-
 #
 
 #### Interfaz de usuario (UI)
@@ -162,7 +160,6 @@ resolver este proyecto.
 ![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)
 
 - [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
-
 * [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
 * [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
