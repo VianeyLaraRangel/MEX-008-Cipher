@@ -16,9 +16,8 @@ window.cipher = {
             }   else if (positionAscci >= 33 && positionAscci <= 64) {
                 let positionEncodeEspecial = ((positionAscci-33+offsetParsed)%32+33);
                 resultEncode += String.fromCharCode(positionEncodeEspecial);
-            } else if (positionAscci >= 161 && positionAscci <= 250) {
-                let positionEncodeEspecialComplete = ((positionAscci -161 + offsetParsed)%90+161);
-                resultEncode += String.fromCharCode(positionEncodeEspecialComplete);
+            } else {
+                alert('Por favor introduce los datos requeridos');
             }
         }
     return (resultEncode);
