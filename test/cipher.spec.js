@@ -4,7 +4,7 @@ describe('cipher', () => {
     assert.equal(typeof cipher, 'object');
   });
 
-  describe('cipher.encode', () => {
+describe('cipher.encode', () => {
 
     it('debería ser una función', () => {
       assert.equal(typeof cipher.encode, 'function');
@@ -52,13 +52,12 @@ describe('cipher', () => {
    });
     
    // Hacker edition
-    // Decidí agregar soporte para minúsculas en el DESCIFRADO, aquí el test correspondiente, NO LOGRO PASARLO AUNQUE YA CIFRA Y DESCIFRA CORRECTAMENTE
+    // Decidí agregar soporte para minúsculas en el DESCIFRADO, aquí el test correspondiente, NO LOGRO PASARLO AUNQUE YA CIFRA Y DESCIFRA CORRECTAMENTE,AYUDA!
     
-     /*
-     it('debería retornar "abcdefghijklmnopqrstuwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33',() => {
-      assert.equal(cipher.decode(33,"hijklmnopqrstuvwxyzabcdefg"), "abcdefghijklmnopqrstuvwxyz");
+      it('debería retornar "abcdefghijklmnopqrstuwxyz" para "opqrstuvwxyzabcdefghijklmn" con offset 33', () => {
+      assert.equal(cipher.encode(33,"opqrstuvwxyzabcdefghijklmn"), "abcdefghijklmnopqrstuvwxyz");
     });
-    */
+
    
     // Hacker edition
     //
