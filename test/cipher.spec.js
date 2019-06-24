@@ -21,15 +21,6 @@ describe('cipher.encode', () => {
       assert.equal(cipher.encode(33,"abcdefghijklmnopqrstuvwxyz"), "hijklmnopqrstuvwxyzabcdefg");
     });
    
-      // Hacker edition
-    // //
-    // // Si decides implementar soporte para caracteres no alfabéticos descomenta
-    // // el test a continuación.
-    // //
-    // // it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () => {
-    // //   assert.equal(
-    // //     cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'), 'hijklmnopqrstuvwxyzabcdefg' );
-    // // });
     // //
     // Hacker edition
     //
@@ -54,7 +45,7 @@ describe('cipher.encode', () => {
    // Hacker edition
     // Decidí agregar soporte para minúsculas en el DESCIFRADO, aquí el test correspondiente, NO LOGRO PASARLO AUNQUE YA CIFRA Y DESCIFRA CORRECTAMENTE,AYUDA!
     
-    it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuwxyz" con offset 33',() => {
+    it('debería retornar "abcdefghijklmnopqrstuwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33',() => {
       assert.strictEqual(cipher.encode(33,"abcdefghijklmnopqrstuvwxyz"),"hijklmnopqrstuvwxyzabcdefg");
     });
 
